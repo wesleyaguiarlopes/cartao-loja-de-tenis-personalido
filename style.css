@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartao {
+    background-color: cadetblue;
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 60px;
+    position: relative;
+}
+
+.cartao img {
+    height: 220px;
+    position: absolute;
+    right: -80px;
+    top: -110px;
+}
